@@ -3,3 +3,4 @@ res://mob.gd
 res://bullet_storm.tscn
 res://player.tscn
 res://gun.tscn
+res://gun.gd
