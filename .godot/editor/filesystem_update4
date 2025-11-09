@@ -1,4 +1,3 @@
-res://player.tscn
-res://player.gd
-res://pine_tree.tscn
+res://mob.tscn
+res://mob.gd
 res://bullet_storm.tscn
