@@ -7,9 +7,14 @@
 [node name="Game" type="Node2D"]
 y_sort_enabled = true
 
-[node name="ColorRect" type="ColorRect" parent="."]
-offset_right = 1400.0
-offset_bottom = 890.0
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+offset_left = 5.0
+offset_top = 3.0
+offset_right = 2098.0
+offset_bottom = 1192.0
 
 [node name="Player" parent="." instance=ExtResource("1_q8rf8")]
 position = Vector2(658, 511)
@@ -27,25 +32,28 @@ position = Vector2(468, 217)
 position = Vector2(966, 228)
 
 [node name="PineTree" parent="." instance=ExtResource("2_8bnlw")]
-position = Vector2(196, 225)
+position = Vector2(242, 376)
 
 [node name="PineTree2" parent="." instance=ExtResource("2_8bnlw")]
-position = Vector2(404, 444)
+position = Vector2(978, 724)
 
 [node name="PineTree3" parent="." instance=ExtResource("2_8bnlw")]
-position = Vector2(988, 463)
+position = Vector2(1573, 808)
 
 [node name="PineTree4" parent="." instance=ExtResource("2_8bnlw")]
-position = Vector2(1092, 444)
+position = Vector2(1705, 846)
 
 [node name="PineTree5" parent="." instance=ExtResource("2_8bnlw")]
-position = Vector2(210, 724)
+position = Vector2(239, 944)
 
 [node name="PineTree6" parent="." instance=ExtResource("2_8bnlw")]
-position = Vector2(1061, 573)
+position = Vector2(1632, 932)
 
 [node name="PineTree7" parent="." instance=ExtResource("2_8bnlw")]
-position = Vector2(1224, 189)
+position = Vector2(1751, 226)
 
 [node name="PineTree8" parent="." instance=ExtResource("2_8bnlw")]
-position = Vector2(745, 135)
+position = Vector2(791, 169)
+
+[node name="PineTree9" parent="." instance=ExtResource("2_8bnlw")]
+position = Vector2(1488, 466)
